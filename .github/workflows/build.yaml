@@ -16,6 +16,8 @@ jobs:
               with:
                   shared-key: "env-md"
                   key: env-md
+            - name: Install mdbook
+              run: cargo install mdbook
             - name: Build book
               run: mdbook build
             - name: Deploy book
