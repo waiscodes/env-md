@@ -1,0 +1,32 @@
+on:
+    push:
+        branches:
+            - master
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v3
+            - name: Install Rust
+              run: rustup toolchain install stable --profile minimal --no-self-update
+            - name: Cache Rust
+              uses: Swatinem/rust-cache@v2
+              with:
+                  shared-key: "env-md"
+                  key: env-md
+            - name: Build book
+              run: mdbook build
+            - name: Deploy book
+              uses: actions/deploy-pages@v1
+              with:
+                  token: ${{ secrets.GITHUB_TOKEN }}
+
+            - name: Edgeserver Upload 
+              uses: lvkdotsh/edgeserver-action@v0.1.2-pre.4
+              with:
+                app_id: "406442149308010496"
+                server: https://api.edgeserver.io
+                token: ${{ secrets.SIGNAL_TOKEN }}
+                directory: book
