@@ -3,6 +3,7 @@
 - [Welcome to life](./welcome.md)
 - [Housekeeping](./housekeeping/index.md)
   - [Dishwashing](./housekeeping/dishwashing.md)
+- [Organization](./organization/index.md)
 - [3D Printing](./3dprinting/index.md)
   - [Gridfinity](./3dprinting/gridfinity.md)
   - [Multiboard](./3dprinting/multiboard.md)
