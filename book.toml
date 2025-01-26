@@ -4,3 +4,10 @@ language = "en"
 multilingual = false
 src = "src"
 title = "The Book of Life"
+
+[output.html]
+git-repository-url = "https://github.com/v3xlabs/env-md"
+git-repository-icon = "fa-github"
+edit-url-template = "https://github.com/v3xlabs/env-md/edit/master/guide/{path}"
+cname = "env.md"
+copy-fonts = true

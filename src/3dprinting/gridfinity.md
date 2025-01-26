@@ -9,4 +9,3 @@ There is a [GrdifinityGenerator](https://apps.autodesk.com/FUSION/en/Detail/Inde
 ## Baseplates
 
 My personal favorite baseplate is the magnet snap-fit baseplate from [Gridfinity Magnet Light Baseplate](https://www.printables.com/model/250550-gridfinity-magnet-light-baseplate/files).
-

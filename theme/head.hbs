@@ -1,0 +1,17 @@
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const styleSheets = Array.from(document.styleSheets);
+    styleSheets.forEach(sheet => {
+        try {
+            const rules = sheet.cssRules || [];
+            Array.from(rules).forEach(rule => {
+                if (rule.style && rule.style.src && rule.style.src.includes("fontawesome-webfont.woff2?v=4.7.0")) {
+                    rule.style.src = rule.style.src.replace("?v=4.7.0", "");
+                }
+            });
+        } catch (e) {
+            console.warn(`Could not access rules for ${sheet.href}:`, e);
+        }
+    });
+});
+</script>
