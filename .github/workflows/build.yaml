@@ -20,12 +20,7 @@ jobs:
               run: cargo install mdbook
             - name: Build book
               run: mdbook build
-            - name: Deploy book
-              uses: actions/deploy-pages@v1
-              with:
-                  token: ${{ secrets.GITHUB_TOKEN }}
-
-            - name: Edgeserver Upload 
+            - name: Edgeserver Upload
               uses: lvkdotsh/edgeserver-action@v0.1.2-pre.4
               with:
                 app_id: "406442149308010496"
