@@ -10,6 +10,8 @@
 - [Networking](./networks/index.md)
   - [Ubiquiti](./networks/ubiquiti.md)
   - [Home Assistant](./networks/home-assistant.md)
+- [Software Design](./software-design/index.md)
+  - [Prometheus](./software-design/prometheus.md)
 - [Containers](./containers/index.md)
   - [Kubernetes](./containers/k8s/index.md)
     - [RBAC](./containers/k8s/rbac.md)
