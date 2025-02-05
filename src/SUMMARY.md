@@ -10,6 +10,7 @@
 - [Networking](./networks/index.md)
   - [Ubiquiti](./networks/ubiquiti.md)
   - [Home Assistant](./networks/home-assistant.md)
+  - [Information Displays](./networks/information-displays.md)
 - [Software Design](./software-design/index.md)
   - [Prometheus](./software-design/prometheus.md)
 - [Containers](./containers/index.md)
