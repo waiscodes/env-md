@@ -28,7 +28,7 @@ jobs:
                 token: ${{ secrets.SIGNAL_TOKEN }}
                 directory: book
             - name: Edgeserver v0.2 Upload
-              uses: lvkdotsh/edgeserver-action@v0.2.0-pre.2
+              uses: lvkdotsh/edgeserver-action@v0.2.0-pre.3
               with:
                 site_id: "s_89382ef9d1"
                 server: https://edgeserver.dev/api
