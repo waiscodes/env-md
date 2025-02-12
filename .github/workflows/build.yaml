@@ -30,7 +30,7 @@ jobs:
             - name: Edgeserver v0.2 Upload
               uses: lvkdotsh/edgeserver-action@v0.2.0-pre.6
               with:
-                site_id: "s_89382ef9d1"
+                site_id: s_89382ef9d1
                 server: https://edgeserver.dev/api
                 token: ${{ secrets.EDGE_TOKEN }}
                 directory: book
