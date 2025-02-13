@@ -34,3 +34,4 @@ jobs:
                 server: https://edgeserver.dev/api
                 token: ${{ secrets.EDGE_TOKEN }}
                 directory: book
+                context: true
