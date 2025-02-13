@@ -21,14 +21,14 @@ jobs:
             - name: Build book
               run: mdbook build
             - name: Edgeserver Upload
-              uses: lvkdotsh/edgeserver-action@v0.1.2-pre.4
+              uses: v3xlabs/edgeserver-upload@v0.1.2-pre.4
               with:
                 app_id: "406442149308010496"
                 server: https://api.edgeserver.io
                 token: ${{ secrets.SIGNAL_TOKEN }}
                 directory: book
             - name: Edgeserver v0.2 Upload
-              uses: lvkdotsh/edgeserver-action@v0.2.0-pre.8
+              uses: v3xlabs/edgeserver-upload@v0.2.0-pre.8
               with:
                 site_id: s_89382ef9d1
                 server: https://edgeserver.dev/api
