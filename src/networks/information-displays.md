@@ -73,4 +73,4 @@ Lets say you have a display that you want to have on all the time.
 You might want to have some sort of daemon running on the display so that you can control it from elsewhere.
 To do this we can use [v3x-mission-control](https://github.com/v3xlabs/mission-control).
 
-Mission Control is a lightweight rust daemon that allows you to expose your displays backlight and brightness to [homeassistant](https://www.home-assistant.io/) via the [mqtt integration](https://www.home-assistant.io/integrations/mqtt/).
+Mission Control is a lightweight rust daemon that allows you to expose your displays backlight, brightness, and chromium controls to [homeassistant](https://www.home-assistant.io/) via the [mqtt integration](https://www.home-assistant.io/integrations/mqtt/).
