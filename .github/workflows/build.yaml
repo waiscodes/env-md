@@ -27,6 +27,7 @@ jobs:
                 server: https://api.edgeserver.io
                 token: ${{ secrets.SIGNAL_TOKEN }}
                 directory: book
+            # Edgeserver v0.2 Upload
             - name: Edgeserver v0.2 Upload
               uses: v3xlabs/edgeserver-upload@v0.2.1-pre.2
               with:
