@@ -11,3 +11,6 @@ git-repository-icon = "fa-github"
 edit-url-template = "https://github.com/v3xlabs/env-md/edit/master/{path}"
 cname = "env.md"
 copy-fonts = true
+
+[output.html.redirect]
+"/software-design/prometheus.html" = "/software/prometheus.html"
