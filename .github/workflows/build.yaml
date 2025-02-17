@@ -20,6 +20,8 @@ jobs:
               run: cargo install mdbook
             - name: Build book
               run: mdbook build
+            - name: Update toc.js
+              run: ./update.sh
             - name: Edgeserver Upload
               uses: v3xlabs/edgeserver-upload@v0.1.2-pre.4
               with:
