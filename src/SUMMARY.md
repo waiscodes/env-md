@@ -16,6 +16,7 @@
   - [VSCode](./software/vscode.md)
   - [Prometheus](./software/prometheus.md)
   - [Configuration](./software/configuration.md)
+  - [VPN](./software/vpn.md)
 - [Containers](./containers/index.md)
   - [Kubernetes](./containers/k8s/index.md)
     - [RBAC](./containers/k8s/rbac.md)
