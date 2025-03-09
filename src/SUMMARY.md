@@ -18,6 +18,7 @@
   - [Configuration](./software/configuration.md)
   - [VPN](./software/vpn.md)
   - [Authentication](./software/authentication/index.md)
+    - [JWT](./software/authentication/jwt.md)
     - [OAuth](./software/authentication/oauth.md)
     - [LDAP](./software/authentication/ldap.md)
     - [Radius](./software/authentication/radius.md)
