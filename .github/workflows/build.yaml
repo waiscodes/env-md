@@ -22,18 +22,11 @@ jobs:
               run: mdbook build
             - name: Update toc.js
               run: ./update.sh
-            - name: Edgeserver Upload
-              uses: v3xlabs/edgeserver-upload@v0.1.2-pre.4
-              with:
-                app_id: "406442149308010496"
-                server: https://api.edgeserver.io
-                token: ${{ secrets.SIGNAL_TOKEN }}
-                directory: book
             # Edgeserver v0.2 Upload
             - name: Edgeserver v0.2 Upload
               uses: v3xlabs/edgeserver-upload@v0.2.1-pre.4
               with:
-                site_id: s_89382ef9d1
+                site_id: s_5478c44809
                 server: https://edgeserver.dev/api
                 token: ${{ secrets.EDGE_TOKEN }}
                 directory: book
